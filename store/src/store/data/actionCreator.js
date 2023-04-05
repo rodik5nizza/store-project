@@ -9,7 +9,8 @@ export const fetchAC = () => async (dispatch) => {
           method: 'GET',
           headers: {
             'Authorization': `Bearer c2267d7d-4d6c-4f8e-be4a-7cb04bc875fc`
-          }}).then(res => res.json()).then(res => console.log(res))
+          }}).then(res => res.json())
+                console.log(data)
         dispatch({type: FETCH, payload: data})
         localStorage.setItem('data', JSON.stringify(data))
       }
