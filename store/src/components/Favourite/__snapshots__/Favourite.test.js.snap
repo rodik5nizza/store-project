@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test snapshot Favourite should Favourite match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="favouriteWrapper"
+  >
+    <svg
+      height="40px"
+      viewBox="0 0 24 24"
+      width="40px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+       
+      <g>
+         
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+         
+        <path
+          d="M12 17l-5.878 3.59 1.598-6.7-5.23-4.48 6.865-.55L12 2.5l2.645 6.36 6.866.55-5.231 4.48 1.598 6.7z"
+          fill="yellow"
+        />
+         
+      </g>
+       
+    </svg>
+    <div
+      class="counter"
+    >
+      1
+    </div>
+  </div>
+</DocumentFragment>
+`;

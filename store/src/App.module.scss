@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  position: relative;
+  color: #383d39;
+  background-color: #cfcbcb;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: left;
+  padding-left: 25px;
+  padding-top: 20px;
+  color: rgb(48, 47, 47);
+  font-size: 30px;
+}
+
+.info{
+  color: rgb(48, 47, 47);
+  padding-top: 30px;
+  padding-left: 25px;
+  font-size: 20px;
+}
+
+.buttonCheckOut {
+  width: 120px;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: rgb(34, 212, 11);
+  color: antiquewhite;
+  font-size: 16px;
+}
+
+.error{
+  color: red;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 7px;
+}
+
+.toggleView {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

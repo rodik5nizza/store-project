@@ -1,0 +1,32 @@
+.header{
+    padding-inline: 15px;
+    background-color: gray;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+}
+
+.cartWrapper{
+    display: flex;
+    gap: 15px;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #383d39;
+    font-size: 20px;
+}
+
+.active {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+}

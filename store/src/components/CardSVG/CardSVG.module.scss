@@ -1,0 +1,18 @@
+.wrapper {
+    padding-inline: 7px;
+    padding-block: 5px;
+    border: 1px solid rgb(175, 173, 173);
+    cursor: pointer;
+}
+
+.wrapper:hover {
+    background-color: rgb(175, 173, 173);
+}
+
+.wrapperActive {
+    background-color: grey;
+    padding-inline: 7px;
+    padding-block: 5px;
+    border: 1px solid rgb(175, 173, 173);
+    cursor: pointer;
+}

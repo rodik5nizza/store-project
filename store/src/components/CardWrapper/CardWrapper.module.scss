@@ -1,0 +1,15 @@
+.cardFlex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.CardWrapper{
+    padding-inline: 25px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+
+.CardItem{
+    list-style-type: none;
+}
+
