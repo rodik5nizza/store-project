@@ -5,7 +5,7 @@ export const fetchAC = () => async (dispatch) => {
       if (datas) {
         dispatch({type: FETCH, payload: JSON.parse(datas)})
       }else {
-                const data = await fetchfetch("https://ajax.test-danit.com/api/v2/cards", {
+                const data = await fetch("https://ajax.test-danit.com/api/v2/cards", {
           method: 'GET',
           headers: {
             'Authorization': `Bearer c2267d7d-4d6c-4f8e-be4a-7cb04bc875fc`
